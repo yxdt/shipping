@@ -1,0 +1,14 @@
+{
+  "Shipping": {
+    "SqlServer": {
+      "Server": "localhost",
+      "Port": "1433",
+      "Database": "dbName",
+      "UserName": "username",
+      "Password": "password",
+      "Encrypt": true,
+      "Driver": "msnodesqlv8",
+      "connstr": "Server=localhost,1433;Database=database;User Id=username;Password=password;Encrypt=true;Driver=msnodesqlv8;"
+    }
+  }
+}
