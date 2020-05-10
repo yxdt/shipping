@@ -1,14 +1,17 @@
 {
   "Shipping": {
     "SqlServer": {
-      "Server": "localhost",
-      "Port": "1433",
-      "Database": "dbName",
-      "UserName": "username",
-      "Password": "password",
+      "server": "localhost",
+      "port": "1433",
+      "database": "StockData",
+      "user": "sa",
+      "password": "saREKETE2018",
       "Encrypt": true,
       "Driver": "msnodesqlv8",
-      "connstr": "Server=localhost,1433;Database=database;User Id=username;Password=password;Encrypt=true;Driver=msnodesqlv8;"
+      "connstr": "server=MYPC3;database=StockData;user id=sa;password=saREKETE2018;Driver=msnodesqlv8;"
+    },
+    "MongoDB": {
+      "connstr": "mongodb://localhost:27017/?readPreference=primary&ssl=false"
     }
   }
 }
