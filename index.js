@@ -4,8 +4,13 @@ const mongoose = require("mongoose");
 const config = require("config");
 const sql = require("mssql");
 
+const logger = require("./middleware/logger");
+
 const courses = require("./routes/courses");
 const home = require("./routes/home");
+
+app.set("view engine", "ejs");
+app.set("views", "./views");
 
 //const connStr = "mongodb://localhost:27017/?readPreference=primary&ssl=false";
 app.use("/", home);

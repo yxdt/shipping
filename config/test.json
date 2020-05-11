@@ -1,13 +1,17 @@
 {
   "Shipping": {
     "SqlServer": {
-      "server": "localhost",
+      "server": "MYPC3",
       "port": 1433,
       "database": "StockData",
       "user": "sa",
       "password": "saREKETE2018",
       "Encrypt": true,
       "Driver": "msnodesqlv8",
+      "options": {
+        "encrypt": true,
+        "enableArithAbort": true
+      },
       "connstr": "server=MYPC3;database=StockData;user id=sa;password=saREKETE2018;Driver=msnodesqlv8;"
     },
     "MongoDB": {
